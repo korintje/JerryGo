@@ -3,7 +3,7 @@
 * An implementation example of [jsIGO](https://github.com/mimami24i/jsIGO) created by [mimami24i](https://github.com/mimami24i)
 
 # Current Ver.
-ver 0.01a
+ver 0.01a (under Development)
 
 # 概要
 * Twitter等のSNSを通じて対局・検討が可能な碁盤アプリケーションです。
@@ -29,8 +29,6 @@ ver 0.01a
 * 棋譜画像付きTwitterカード
 * 5, 6, 9, 19路盤のサポート 
 * 基本的な棋譜操作[一手戻る/一手進む/最初から]
-
-
 
 # License
 * Free to use under the BSD license.
