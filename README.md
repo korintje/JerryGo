@@ -9,6 +9,7 @@ ver 0.01a
 * 棋譜情報は完全にURLに含有されているため、棋譜データをサーバーに保管する必要はありません。
 * Twitterカードに用いられる画像は、サーバーに保存されます。
 * メインエンジンとして、[mimami24i](https://github.com/mimami24i)さんによって作成された[jsIGO](https://github.com/mimami24i/jsIGO)を用いています。
+* 万波奈穂棋士による「#1日1ツイートで囲碁ルールを説明したら何日で伝えられるか」企画に合わせて、碁石をゼリーの画像に置き換えたものをデフォルトとして使用しています。
 
 # Example
 * https://korintje.com/html/jerrygo/ にて動作しています。
