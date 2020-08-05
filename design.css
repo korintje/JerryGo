@@ -1,0 +1,187 @@
+<style TYPE="text/css">
+/* Canvas */
+.divcv {
+  position: relative;
+  margin: 10px 20px;
+}
+.cv {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  background-color: #F0F0E0;
+  /*width: 463px;
+  height: 463px;*/
+}
+/* ロード中メッセージ表示div */
+.myldmsg {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 5;
+  width: 460px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+}
+/* control div */
+.contdiv {
+  margin: 5px 0 0 0;
+  width: 460px;
+}
+.clrdiv {
+  float: left;
+  margin: 0 0 0 30px;
+}
+.rowcngdiv {
+  float: right;
+  margin: 0 0 0 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.rowsel {
+  vertical-align: 1px;
+  width: 65px;
+}
+/* note表示div */
+.notediv {
+  margin: 20px 0 10px 0;
+  font-size: 13px;
+  line-height: 23px;
+}
+/* 注意書きdiv */
+.almsgdiv {
+  max-width: 550px;
+  overflow: visible;
+  margin: 10px 0 0 0;
+  padding: 3px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #808080;
+  line-height: 130%;
+  font-size: 80%;
+}
+.msr_btn12 a{
+  width: 180px;
+  padding:15px;
+  color:#ffffff;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: none;
+  background: #1DA1F2;
+  display: block;
+  position:relative;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  -webkit-box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  -moz-box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.msr_btn12 a:hover{
+  opacity:0.7;
+}
+.msr_btn12 a:before {
+content: "";
+display: inline-block;
+width: 24px;
+height: 24px;
+margin: -3px 5px 0 0;
+background: url("images/Twitter_Logo_WhiteOnBlue.svg") no-repeat;
+background-size: contain;
+vertical-align: middle;
+}
+
+.msr_btn13 a{
+  width: 180px;
+  padding:15px;
+  color:#ffffff;
+  font-size: 15px;
+  line-height: 120%;
+  text-align: center;
+  text-decoration: none;
+  background: #ff6363;
+  display: block;
+  position:relative;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  -webkit-box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  -moz-box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  box-shadow:0px 15px 30px -15px rgba(0,0,0,0.3);
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.msr_btn13 a:hover{
+  opacity:0.7;
+}
+.msr_btn11 a{
+width: 230px;
+padding:15px;
+color:#ffffff;
+font-size: 15px;
+line-height: 120%;
+text-align: center;
+text-decoration: none;
+background: #1B73BA;
+border: 2px solid #1B73BA;
+-webkit-box-shadow:0px 0px 0px 1px #ffffff inset;
+-moz-box-shadow:0px 0px 0px 1px #ffffff inset;
+box-shadow:0px 0px 0px 1px #ffffff inset;
+display: block;
+position:relative;
+-webkit-transition: 0.3s ease-out;
+-moz-transition: 0.3s ease-out;
+-o-transition: 0.3s ease-out;
+transition: 0.3s ease-out;
+}
+.msr_btn11 a::before{
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  margin:0 15px 1px 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position:relative;
+  display:inline-block;
+  -webkit-transition: 0.3s ease-out;
+  -moz-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+.msr_btn11 a:hover{
+  color:#1B73BA;
+  background: #ffffff;
+}
+.msr_btn11 a:hover::before{
+  border-top: solid 2px #1B73BA;
+  border-right: solid 2px #1B73BA;
+}
+h1 {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+.primally_container { text-align:center; width: 463px; margin-right: auto; margin-left: auto; }
+.primally_container .title_container { text-align:center;box-sizing: border-box; width: 100%;}
+.primally_container .canvas_container { display: flex; text-align:center;box-sizing: border-box;}
+.primally_container .stn_act_container { display: flex; text-align:center; box-sizing: border-box; justify-content: space-around;}
+.primally_container .ban_act_container { display: flex; text-align:center; box-sizing: border-box; justify-content: space-around; background: #F0F0E0}
+.primally_container .twt_act_container { display: flex; text-align:center; box-sizing: border-box; justify-content: space-around;}
+.primally_container .note_container { display: flex; text-align:center; box-sizing: border-box;}
+</style>
