@@ -1,6 +1,3 @@
-<style TYPE="text/css">
-/* Canvas */
-
 html {
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -222,5 +219,3 @@ h1 {
 #append_splash_msg_inner.alert {
   font-size: 38px;
 }
-
-</style>

@@ -44,7 +44,7 @@ $lasty     = substr($kifu, -1, 1);
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js" charset="UTF-8"></script>
   <script type="text/javascript" src="./js/migolb.js" charset="UTF-8"></script>
-  <script type="text/javascript" src="./html5/js/jsigosumple.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="./js/jsigosumple.js" charset="UTF-8"></script>
 
 </head>
 
