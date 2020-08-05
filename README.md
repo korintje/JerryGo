@@ -18,7 +18,6 @@ ver 0.01a
 # 使用言語
 * JavaScript
 * PHP
-* html
 * CSS
 
 # 依存ライブラリ
