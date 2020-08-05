@@ -1,5 +1,6 @@
 # JerryGo
-Goban application easy to access from Twitter
+* Goban application easy to access from Twitter
+* An implementation example of [jsIGO](https://github.com/mimami24i/jsIGO) created by [mimami24i](https://github.com/mimami24i)
 
 # Current Ver.
 ver 0.01a
@@ -29,8 +30,10 @@ ver 0.01a
 * 5, 6, 9, 19路盤のサポート 
 * 基本的な棋譜操作[一手戻る/一手進む/最初から]
 
-License:
-  Free to use under the BSD license.
 
-Credit:
-  korintje@protonmail.com
+
+# License
+* Free to use under the BSD license.
+
+# Credit:
+* korintje@protonmail.com
