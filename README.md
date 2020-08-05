@@ -1,5 +1,5 @@
 # JerryGo
-* Goban application easy to access from Twitter
+* Goban application to share Kifu on Twitter
 * An implementation example of [jsIGO](https://github.com/mimami24i/jsIGO) created by [mimami24i](https://github.com/mimami24i)
 
 # Current Ver.
