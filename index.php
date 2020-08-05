@@ -39,8 +39,8 @@ $lasty     = substr($kifu, -1, 1);
 
   <meta name="viewport" content="width=device-width,initial-scale=0.8,minimum-scale=0.8,maximum-scale=0.8,user-scalable=no">
   <meta name="format-detection" content="telephone=no">
-  <link media="only screen and (max-device-width:767px)" href="smart.css" type="text/css" rel="stylesheet" />
-  <link media="screen and (min-device-width:768px)" href="design.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (max-device-width:767px)" href="./css/smart.css" type="text/css" rel="stylesheet" />
+  <link media="screen and (min-device-width:768px)" href="./css/design.css" type="text/css" rel="stylesheet" />
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js" charset="UTF-8"></script>
   <script type="text/javascript" src="./js/migolb.js" charset="UTF-8"></script>
